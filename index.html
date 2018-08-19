@@ -14,35 +14,42 @@
     <div class=" container">
       <div class="calculator">
       <div class="screen">
+        <p id="output">0</p>
       </div> <!--end of screen div -->
       <div class="button">
         <div class="row col-sm-12">
-          <div class="col-sm-3 key">7</div>
-          <div class="col-sm-3 key">8</div>
-          <div class="col-sm-3 key">9</div>
-          <div class="col-sm-3 key">/</div>
+          <button class="col-sm-3 key" id="num">7</button>
+          <button class="col-sm-3 key" id="num">8</button>
+          <button class="col-sm-3 key" id="num">9</button>
+          <button class="col-sm-3 key" id="operator">/</button>
         </div>
         <div class="row col-sm-12" >
-          <div class="col-sm-3 key">4</div>
-          <div class="col-sm-3 key">5</div>
-          <div class="col-sm-3 key">6</div>
-          <div class="col-sm-3 key">*</div>
+          <button class="col-sm-3 key" id="num">4</button>
+          <button class="col-sm-3 key" id="num">5</button>
+          <button class="col-sm-3 key" id="num">6</button>
+          <button class="col-sm-3 key" id="operator">*</button>
         </div>
         <div class="row col-sm-12" >
-          <div class="col-sm-3 key">1</div>
-          <div class="col-sm-3 key">2</div>
-          <div class="col-sm-3 key">3</div>
-          <div class="col-sm-3 key">-</div>
+          <button class="col-sm-3 key" id="num">1</button>
+          <button class="col-sm-3 key" id="num">2</button>
+          <button class="col-sm-3 key" id="num">3</button>
+          <button class="col-sm-3 key" id="operator">-</button>
         </div>
         <div class="row col-sm-12" >
-          <div class="col-sm-3 key">0</div>
-          <div class="col-sm-3 key">.</div>
-          <div class="col-sm-3 key">=</div>
-          <div class="col-sm-3 key">+</div>
+          <button class="col-sm-3 key" id="num">0</button>
+          <button class="col-sm-3 key" id="operator">.</button>
+          <button class="col-sm-3 key" id="operator">%</button>
+          <button class="col-sm-3 key" id="operator">+</button>
+        </div>
+        <div class="row col-sm-12" >
+          <button class="col-sm-3 key key-sp" id="operator">CE</button>
+          <button class="col-sm-6 key key-sp" id="operator">=</button>
         </div>
       </div><!-- end of button div-->
     </div>
 
     </div> <!--end of calclator div -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
   </html>
